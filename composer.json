@@ -13,6 +13,9 @@
     "require": {
         "php": "^5.4 | ^7.0"
     },
+    "suggest": {
+        "dhii/i18n-interface": "Allows translating strings with context"
+    },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
         "ptrofimov/xpmock": "^1.1",
