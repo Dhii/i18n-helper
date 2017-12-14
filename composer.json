@@ -25,5 +25,10 @@
         "psr-4": {
             "Dhii\\I18n\\": "src"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
     }
 }
