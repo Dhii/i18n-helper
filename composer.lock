@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff0d854f0152f71a0cb5db8460a0f21f",
+    "content-hash": "edf959d4ac892995f6285635731f216d",
     "packages": [
         {
             "name": "dhii/i18n-interface",
-            "version": "v0.1",
+            "version": "v0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/i18n-interface.git",
-                "reference": "2b8e842fdf1ba8888a3efecaea3b84691c5ee1e0"
+                "reference": "7eaf0731ba80eea37a5deea6d894a0326e10be67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/i18n-interface/zipball/2b8e842fdf1ba8888a3efecaea3b84691c5ee1e0",
-                "reference": "2b8e842fdf1ba8888a3efecaea3b84691c5ee1e0",
+                "url": "https://api.github.com/repos/Dhii/i18n-interface/zipball/7eaf0731ba80eea37a5deea6d894a0326e10be67",
+                "reference": "7eaf0731ba80eea37a5deea6d894a0326e10be67",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 }
             ],
             "description": "Interfaces for internationalization.",
-            "time": "2017-03-13T12:08:29+00:00"
+            "time": "2017-03-15T16:01:39+00:00"
         }
     ],
     "packages-dev": [
