@@ -26,9 +26,22 @@
             "Dhii\\I18n\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Dhii\\I18n\\UnitTest\\": "test/unit",
+            "Dhii\\I18n\\FuncTest\\": "test/functional"
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-develop": "0.1.x-dev"
         }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "csfix": "php-cs-fixer fix -vvv",
+        "analyze": [
+            "phan --progress-bar --output-mode=text --output=test/phan-report.txt"
+        ]
     }
 }
