@@ -14,7 +14,7 @@ trait StringTranslatorAwareTrait
      *
      * @since [*next-version*]
      *
-     * @var TranslatorInterface
+     * @var StringTranslatorInterface
      */
     protected $translator;
 
