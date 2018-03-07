@@ -3,9 +3,7 @@
 namespace Dhii\I18n\FuncTest;
 
 use Dhii\I18n\StringTranslatorAwareTrait as TestSubject;
-
 use Dhii\I18n\StringTranslatorInterface;
-use stdClass;
 use Xpmock\TestCase;
 use Exception as RootException;
 use PHPUnit_Framework_MockObject_MockObject as MockObject;

@@ -3,7 +3,6 @@
 namespace Dhii\I18n\UnitTest;
 
 use Dhii\I18n\StringTranslatingTrait as TestSubject;
-
 use Xpmock\TestCase;
 use Exception as RootException;
 use PHPUnit_Framework_MockObject_MockObject as MockObject;

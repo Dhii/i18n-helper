@@ -3,7 +3,6 @@
 namespace Dhii\I18n\UnitTest;
 
 use Dhii\I18n\StringTranslatorAwareTrait as TestSubject;
-
 use Dhii\I18n\StringTranslatorInterface;
 use stdClass;
 use Xpmock\TestCase;

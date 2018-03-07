@@ -3,7 +3,6 @@
 namespace Dhii\I18n\UnitTest;
 
 use Dhii\I18n\StringTranslatorConsumingTrait as TestSubject;
-
 use Dhii\I18n\StringTranslatorInterface;
 use Xpmock\TestCase;
 use Exception as RootException;
