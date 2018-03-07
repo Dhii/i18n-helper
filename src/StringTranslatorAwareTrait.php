@@ -2,6 +2,8 @@
 
 namespace Dhii\I18n;
 
+use InvalidArgumentException;
+
 /**
  * Methods for classes that can have a string translator.
  *
@@ -14,7 +16,7 @@ trait StringTranslatorAwareTrait
      *
      * @since [*next-version*]
      *
-     * @var StringTranslatorInterface
+     * @var StringTranslatorInterface|null
      */
     protected $translator;
 
@@ -23,12 +25,18 @@ trait StringTranslatorAwareTrait
      *
      * @since [*next-version*]
      *
-     * @param StringTranslatorInterface $translator The translator.
+     * @param StringTranslatorInterface|null $translator The translator.
+     *
+     * @throws InvalidArgumentException If translator is invalid.
      *
      * @return $this
      */
-    protected function _setTranslator(StringTranslatorInterface $translator)
+    protected function _setTranslator($translator)
     {
+        if (!(is_null($translator) || $translator instanceof StringTranslatorInterface)) {
+            throw new InvalidArgumentException('Invalid translator');
+        }
+
         $this->translator = $translator;
 
         return $this;
@@ -39,7 +47,7 @@ trait StringTranslatorAwareTrait
      *
      * @since [*next-version*]
      *
-     * @return StringTranslatorInterface The translator.
+     * @return StringTranslatorInterface|null The translator.
      */
     protected function _getTranslator()
     {
