@@ -8,4 +8,14 @@
 
 A base for internationalization consumers.
 
+## Traits
+- [`StringTranslatingTrait`][StringTranslatingTrait] - Functionality for interpolation and no-op translation of strings.
+Is also the base for more complex translation functionality.
+- [`StringTranslatorConsumingTrait`][StringTranslatorConsumingTrait] - Functionality for string translation by using a translator.
+- [`StringTranslatorAwareTrait`][StringTranslatorAwareTrait] - Awareness of a string translator.
+
 [Dhii]: https://github.com/Dhii/dhii
+
+[StringTranslatingTrait]:                       src/StringTranslatingTrait.php
+[StringTranslatorConsumingTrait]:               src/StringTranslatorConsumingTrait.php
+[StringTranslatorAwareTrait]:                   src/StringTranslatorAwareTrait.php
