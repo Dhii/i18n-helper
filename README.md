@@ -1,4 +1,4 @@
-# Dhii - Internationalization Helper Base
+# [DEPRECATED] Dhii - Internationalization Helper Base
 
 [![Build Status](https://travis-ci.org/Dhii/i18n-helper-base.svg?branch=develop)](https://travis-ci.org/Dhii/i18n-helper-base)
 [![Code Climate](https://codeclimate.com/github/Dhii/i18n-helper-base/badges/gpa.svg)](https://codeclimate.com/github/Dhii/i18n-helper-base)
